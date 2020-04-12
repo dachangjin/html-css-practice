@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .main .new-user {
     margin: 30px auto;
     height: 370px;
@@ -531,56 +533,4 @@
 
 .recommend .item .comment-count:hover {
     text-decoration: underline;
-}
-
-
-.footer {
-    border-top: 1px #eaeaea solid;
-    background-color: #fff;
-}
-
-.footer .service {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 147px;
-}
-
-.footer .service .item {
-    width: 233px;
-    height: 48px;
-}
-
-.footer .service .item .icon {
-    float: left;
-    width: 48px;
-    height: 48px;
-    line-height: 48px;
-    font-size: 20px;
-    font-weight: 700;
-    border: 2px #d6d6d6 solid;
-    border-radius: 50%;
-    text-align: center;
-}
-
-.footer .service .item .info {
-    float: right;
-    
-}
-
-.footer .service .item .title {
-    display: block;
-    font-size: 18px;
-    font-weight: 700;
-    width: 170px;
-    line-height: 22px;
-    text-align: left;
-}
-
-.footer  .service .item .desc {
-    display: block;
-    margin-top: 5px;
-    font-size: 14px;
-    font-weight: 22px;
-    text-align: left;
 }
