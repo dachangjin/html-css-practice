@@ -1,0 +1,176 @@
+
+@charset "UTF-8";
+
+.footer {
+    border-top: 1px #eaeaea solid;
+    background-color: #fff;
+}
+
+.footer .service {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 147px;
+}
+
+.footer .service .item {
+    width: 233px;
+    height: 48px;
+}
+
+.footer .service .item .icon {
+    float: left;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px #d6d6d6 solid;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer .service .item .info {
+    float: right;
+    
+}
+
+.footer .service .item .title {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    width: 170px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.footer  .service .item .desc {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 22px;
+    text-align: left;
+}
+
+.footer .guide-list {
+    height: 263px;
+    padding: 40px 0 90px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-top: 1px #eaeaea solid;
+}
+
+.footer .guide-list .follow-us {
+    float: left;
+    margin-right: 40px;
+}
+
+.footer .guide-list .follow-us .logo {
+    display: block;
+    width: 220px;
+    height: 69px;
+    margin-bottom: 10px;
+}
+
+.footer .guide-list .follow-us .info {
+    width: 218px;
+    height: 32px;
+}
+
+.footer .guide-list .follow-us .follow {
+    line-height: 32px;
+}
+
+.footer .guide-list .follow-us .info a {
+    margin-left: 8px;
+}
+
+.footer .guide-list .follow-us .icon {
+    width: 32px;
+    height: 32px;
+}
+
+.footer .guide-list .info-list {
+    float: left;
+    margin-left: 21px;
+    width: 110px;
+}
+
+.footer .guide-list .info-list h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.footer .guide-list .info-list li {
+    margin-bottom: 8px;
+}
+
+.footer .guide-list .info-list a:hover {
+    text-decoration: underline;
+}
+
+.footer .download {
+    float: right;
+    margin-right: 60px;
+}
+
+.footer .download img {
+    width: 108px;
+    height: 108px;
+}
+
+.footer .download p {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.footer .bottom {
+    padding: 20px 0;
+    color: #c2c2c2;
+    background-color: #333;
+
+}
+
+.footer .bottom a {
+    color: #c2c2c2;
+    
+}
+
+.footer .bottom .line1 a {
+    margin: 0 2px;
+}
+
+
+
+.footer .bottom .line2 a {
+    margin: 0 24px;
+}
+
+.footer .bottom .line3 a {
+    vertical-align: middle;
+    margin: 0 24px;
+}
+
+.footer .bottom .line3 img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    top: -2px;
+}
+
+.footer .bottom .line4 img {
+    height: 30px;
+    margin: 0 2px;
+}
+
+
+.footer .bottom p {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.footer .bottom a:hover {
+    text-decoration: underline;
+}

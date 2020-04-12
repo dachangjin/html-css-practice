@@ -1,0 +1,396 @@
+.top-ad {
+    min-width: 1100px;
+    overflow: hidden;
+
+}
+
+.top-ad img {
+    position: relative;
+    margin-left: -960px;
+    left: 50%;
+}
+
+.top-nav {
+    background-color: #000;
+}
+
+.top-nav .wrap {
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+}
+
+.top-ad .nav-left {
+    float: left;
+}
+
+.top-ad .nav-right {
+    float: right;
+}
+
+.top-nav .welcome {
+    float: left;
+}
+
+.top-nav .nav-left-list li {
+    float: left;
+}
+
+.top-nav .nav-left-list a{
+    color: #999;
+    margin-left: 28px;
+}
+
+.top-nav .profile {
+    float: right;
+}
+
+.top-nav .profile li {
+    float: left;
+}
+
+.top-nav .profile a {
+    display: inline-block;
+    /* line-height: 30px; */
+    color: #999;
+    padding: 0 14px;
+}
+
+.top-nav .profile i{
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    left: 2px;
+    top: 2px;
+    border-width: 4px;
+    border-color: #999 transparent transparent;
+    border-style: solid;
+    transform-origin: center 2px;
+}
+
+.top-nav .profile a:hover i{
+    border-color: #f00 transparent transparent;
+    transform: rotate(180deg);   
+    transition: all 300ms ease-in;
+}
+
+
+
+.top-nav .profile a.item1:hover {
+    color: #fff;
+}
+
+.top-nav .profile a.item2:hover {
+    color: #ff1e32;
+    background-color: #fff;
+}
+
+.top-header .slogan{
+    float: left;
+}
+
+.top-header .slogan-right {
+    margin-top: 32px; 
+    float: right;
+}
+
+
+.top-header .slogan-right .chart {
+    margin-left: 20px;
+    margin-right: 60px;
+    float: right;
+    width: 110px;
+    height: 36px;
+    text-align: center;
+    border-width: 2px;
+    border-color: #f00;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.top-header .slogan-right .chart i{
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/shopcart-icon.png);
+}
+
+.top-header .slogan-right .chart span{
+    line-height: 36px;
+    font-size: 14px;
+    color: #333;
+}
+
+.top-header .slogan-right .search {   
+    position: relative;
+    float: right;
+    width: 476px;
+    height: 36px;
+    border-width: 2px;
+    border-color: #f00;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.top-header .slogan-right .search>i {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background-image: url("../img/kl-sprite-01.png");
+    background-position: -466px -667px;
+}
+
+.top-header .slogan-right .search>input {
+    position: absolute;
+    width: 400px;
+    height: 24px;
+    top: 0;
+    bottom: 0;
+    margin-left: 30px;
+    background: transparent;
+    font-style: italic;
+    margin: auto 30px;
+}
+
+.top-header .slogan-right .search>a {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    border-radius: 20px;
+    right: -2px;
+    top: -2px;
+    /* background: url(../img/icon-search.png) no-repeat center center #ff2337; */
+    background-color: #f00;
+    background-image: url(../img/icon-search.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tab-list .categories {
+    float: left;
+    width: 164px;
+    height: 40px;
+    line-height: 40px;
+    background: linear-gradient(90deg,red,#ff3264);
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+
+.tab-list .list {
+    float: left;
+}
+
+.tab-list .list li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 20px;
+}
+
+.tab-list .list li a {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+
+.tab-list .list li a:hover {
+    color: #f00;
+}
+
+.header .scroll-banner {
+    position: relative;
+    height: 505px;
+}
+
+.header .scroll-banner .banner {
+    min-width: 1100px;
+    display: block;
+    height: 505px;
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+}
+
+.header .scroll-banner .category-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.header .scroll-banner .category-list li {
+    width: 164px;
+    height: 41px;
+    background: linear-gradient(90deg,red,#ff3264);
+    text-align: center;
+    border-top: #fff 1px solid;
+}
+
+.header .scroll-banner .category-list a {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+    margin: 0 1px;
+}
+
+.header .scroll-banner .category-list a:hover {
+    color: #f00;
+    background-color: #fff;
+    line-height: 40px;
+}
+
+.header .scroll-banner .category-list a .active {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    height: 20px;
+    width: 20px;
+    display: none;
+}
+
+.header .scroll-banner .category-list a .normal {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.header .scroll-banner .category-list a:hover .normal {
+    display: none;
+}
+
+.header .scroll-banner .category-list a:hover .active {
+    display: inline-block;
+}
+
+.header .scroll-banner .category-list i {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-width: 1px;
+    border-color: #fff #fff transparent transparent;
+    border-style: solid;
+    transform: rotate(45deg);
+}
+
+
+.header .scroll-banner .category-list a:hover i {
+    border-color: #f00 #f00 transparent transparent;
+}
+
+.header .scroll-banner .blur-bg::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    background-image: url(../img/banner.jpg);
+    background-position: center bottom;
+    filter: blur(8px);
+}
+
+.header .scroll-banner .blur-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    /* background-image: url(../img/banner.jpg);
+    background-position: center bottom;
+    filter: blur(8px); */
+}
+
+.header .scroll-banner .blur-bg .service {
+    position: absolute;
+    height: 45px;
+    z-index: 10;
+    left: 0;
+    right: 0;
+}
+
+.header .scroll-banner .blur-bg .service-left {
+    float: left;
+}
+
+.header .scroll-banner .blur-bg .service-left li {
+    float: left;
+}
+
+.blur-bg .service-left li a {
+    vertical-align: middle;
+    color: #fff;
+    font-size: 12px;
+    line-height: 45px;
+    margin-right: 20px;
+}
+
+.blur-bg .service-left li a:hover {
+
+    text-decoration: underline;
+}
+
+
+.blur-bg .service-left li a i{
+    
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin: auto 10px auto 0;
+    border-width: 2px;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.blur-bg .service-right {
+    float: right;
+
+}
+
+.blur-bg .service-right i {
+    position: relative;
+    display: inline-block;
+    top: 6px;
+    width: 20px;
+    height: 20px;
+    background: url(https://kaola-haitao.oss.kaolacdn.com/13ea56c1-0902-4c4e-8363-b319e90a160e.png?v=1&x-oss-process=image%2Fresize%2Cw_20%2Ch_0%2Fquality%2Cq_85) no-repeat 50%;
+}
+
+
+.blur-bg .service-right a { 
+    line-height: 45px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.blur-bg .service-right a:hover { 
+    text-decoration: underline;
+}
